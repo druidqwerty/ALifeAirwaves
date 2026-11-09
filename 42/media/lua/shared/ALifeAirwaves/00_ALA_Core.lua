@@ -8,7 +8,8 @@ ALifeAirwaves = ALifeAirwaves or {}
 local A = ALifeAirwaves
 
 A.MOD_ID = "ALifeAirwaves"
-A.VERSION = "0.1.0"
+A.VERSION = "0.1.1"
+A.OBSOLETE = true
 A.TAG = "[ALA]"
 A.MODULE = "ALifeAirwaves"
 A.SCHEMA = 1

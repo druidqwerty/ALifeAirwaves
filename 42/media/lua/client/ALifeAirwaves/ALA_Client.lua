@@ -252,15 +252,19 @@ end
 
 if not A.clientRegistered then
     A.clientRegistered = true
-    Cl.installOptions()
-    A.log("v" .. A.VERSION .. " client loaded")
-    if type(Events) == "table" then
-        if Events.OnFillInventoryObjectContextMenu then Events.OnFillInventoryObjectContextMenu.Add(Cl.fillInventoryMenu) end
-        if Events.OnFillWorldObjectContextMenu then Events.OnFillWorldObjectContextMenu.Add(Cl.fillWorldMenu) end
-        if Events.OnServerCommand then Events.OnServerCommand.Add(Cl.receive) end
-        if Events.OnKeyPressed then Events.OnKeyPressed.Add(function(k) pcall(Cl.onKeyPressed, k) end) end
-        if Events.OnTick then Events.OnTick.Add(function() pcall(Cl.tick) end) end
-        if Events.OnGameStart then Events.OnGameStart.Add(function() pcall(A.Map.install) end) end
+    if A.OBSOLETE then
+        A.log("Obsolete: merged into A-Life: Caravans 0.8.0")
+    else
+        Cl.installOptions()
+        A.log("v" .. A.VERSION .. " client loaded")
+        if type(Events) == "table" then
+            if Events.OnFillInventoryObjectContextMenu then Events.OnFillInventoryObjectContextMenu.Add(Cl.fillInventoryMenu) end
+            if Events.OnFillWorldObjectContextMenu then Events.OnFillWorldObjectContextMenu.Add(Cl.fillWorldMenu) end
+            if Events.OnServerCommand then Events.OnServerCommand.Add(Cl.receive) end
+            if Events.OnKeyPressed then Events.OnKeyPressed.Add(function(k) pcall(Cl.onKeyPressed, k) end) end
+            if Events.OnTick then Events.OnTick.Add(function() pcall(Cl.tick) end) end
+            if Events.OnGameStart then Events.OnGameStart.Add(function() pcall(A.Map.install) end) end
+        end
     end
 end
 

@@ -1,10 +1,10 @@
-name=A-Life: Airwaves & Contracts [B42]
+name=[OBSOLETE - Merged into Caravans] A-Life: Airwaves & Contracts [B42]
 id=ALifeAirwaves
 author=druid
-modversion=0.1.0
+modversion=0.1.1
 versionMin=42.21.0
 poster=poster.png
 icon=icon.png
 require=ProjectALifeNPCs
-loadModAfter=ProjectALifeNPCs,ProjectALifeJimmy,AliveJeemDynamicWorld,ALifeKnoxFractured,ALifeCaravans,ALifeReactiveSurvivors
-description=Test version. Add-on for Project A-Life [ALIFE NPCS]: connects living survivor groups, outposts and (optionally) A-Life: Caravans convoys to real in-game walkie-talkies, HAM stations and vehicle radios across dedicated frequencies (94.2, 101.6, 106.4 MHz). Intercept live survivor broadcasts with auto-marked map coordinates, answer dynamic SOS beacons and rescue contracts, call in supply drops or nearby caravans, and request town recon intel (EN/RU). / Тестовая версия. Аддон к Project A-Life: живой радиоэфир выживших и караванов на реальных игровых рациях и автомагнитолах (94.2, 101.6, 106.4 МГц), авто-метки координат на карте, динамические SOS-контракты, заказ сброса припасов и разведсводки по городам (EN/RU).
+loadModAfter=ProjectALifeNPCs,ALifeCaravans
+description=OBSOLETE: Project A-Life 1.5 now includes its own radio missions, and this mod's unique features (radio caravan hailing, supply drops, and town market/recon reports) have been merged into A-Life: Caravans v0.8.0 (Workshop 3829571361). Safe no-op for existing saves. / НЕАКТУАЛЕН: в Project A-Life 1.5 появились собственные радио-миссии, а функции вызова каравана по рации, сброса снабжения и сводок рынка полностью перенесены в A-Life: Caravans v0.8.0 (Workshop 3829571361). Безопасная заглушка для старых сохранений.

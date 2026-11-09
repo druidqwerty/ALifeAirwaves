@@ -83,7 +83,7 @@ function ZR.air(channelKey, speaker, text, color)
     return ok
 end
 
-if not ZR.registered and type(Events) == "table" then
+if not ZR.registered and type(Events) == "table" and not A.OBSOLETE then
     ZR.registered = true
     if Events.OnLoadRadioScripts ~= nil and type(Events.OnLoadRadioScripts.Add) == "function" then
         Events.OnLoadRadioScripts.Add(function(sm) pcall(ZR.load, sm) end)

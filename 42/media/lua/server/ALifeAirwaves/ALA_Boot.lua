@@ -24,6 +24,11 @@ A.Boot = B
 
 function B.install()
     if B.installed then return true end
+    if A.OBSOLETE then
+        B.installed = true
+        A.log("Obsolete: merged into A-Life: Caravans 0.8.0")
+        return true
+    end
     B.tries = B.tries + 1
     local p = ProjectALife
     if type(p) ~= "table" or (p.ActorRegistry == nil and p.Catalog == nil and p.Speech == nil) then
@@ -51,7 +56,7 @@ function B.install()
 end
 
 function B.tick()
-    if not B.installed then return end
+    if not B.installed or A.OBSOLETE then return end
     local now = A.now()
     if now >= B.settingsAtMs then
         B.settingsAtMs = now + 2000
@@ -64,7 +69,7 @@ function B.tick()
 end
 
 function B.report()
-    if not B.installed then return end
+    if not B.installed or A.OBSOLETE then return end
     B.minute = B.minute + 1
     if B.minute % 5 ~= 0 then return end
     local current = A.counters()
