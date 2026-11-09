@@ -1,0 +1,136 @@
+VERSION = 1,
+
+option ALifeAirwaves.Enabled
+{
+	type = boolean,
+	default = true,
+
+	page = ALifeAirwaves,
+	translation = ALifeAirwaves_Enabled,
+}
+
+option ALifeAirwaves.BroadcastIntervalMinutes
+{
+	type = integer,
+	min = 1,
+	max = 60,
+	default = 4,
+
+	page = ALifeAirwaves,
+	translation = ALifeAirwaves_BroadcastIntervalMinutes,
+}
+
+option ALifeAirwaves.SOSContractIntervalMinutes
+{
+	type = integer,
+	min = 2,
+	max = 120,
+	default = 8,
+
+	page = ALifeAirwaves,
+	translation = ALifeAirwaves_SOSContractIntervalMinutes,
+}
+
+option ALifeAirwaves.SOSTimeoutMinutes
+{
+	type = integer,
+	min = 3,
+	max = 60,
+	default = 15,
+
+	page = ALifeAirwaves,
+	translation = ALifeAirwaves_SOSTimeoutMinutes,
+}
+
+option ALifeAirwaves.RewardMultiplier
+{
+	type = integer,
+	min = 50,
+	max = 300,
+	default = 100,
+
+	page = ALifeAirwaves,
+	translation = ALifeAirwaves_RewardMultiplier,
+}
+
+option ALifeAirwaves.SupplyDispatchCooldownMinutes
+{
+	type = integer,
+	min = 1,
+	max = 120,
+	default = 12,
+
+	page = ALifeAirwaves,
+	translation = ALifeAirwaves_SupplyDispatchCooldownMinutes,
+}
+
+option ALifeAirwaves.IntelCooldownMinutes
+{
+	type = integer,
+	min = 1,
+	max = 60,
+	default = 5,
+
+	page = ALifeAirwaves,
+	translation = ALifeAirwaves_IntelCooldownMinutes,
+}
+
+option ALifeAirwaves.AutoMapMarkers
+{
+	type = boolean,
+	default = true,
+
+	page = ALifeAirwaves,
+	translation = ALifeAirwaves_AutoMapMarkers,
+}
+
+option ALifeAirwaves.RequirePoweredRadio
+{
+	type = boolean,
+	default = true,
+
+	page = ALifeAirwaves,
+	translation = ALifeAirwaves_RequirePoweredRadio,
+}
+
+option ALifeAirwaves.EmergencyFreqKhz
+{
+	type = integer,
+	min = 88000,
+	max = 108000,
+	default = 94200,
+
+	page = ALifeAirwaves,
+	translation = ALifeAirwaves_EmergencyFreqKhz,
+}
+
+option ALifeAirwaves.TradeFreqKhz
+{
+	type = integer,
+	min = 88000,
+	max = 108000,
+	default = 101600,
+
+	page = ALifeAirwaves,
+	translation = ALifeAirwaves_TradeFreqKhz,
+}
+
+option ALifeAirwaves.TacticalFreqKhz
+{
+	type = integer,
+	min = 88000,
+	max = 108000,
+	default = 106400,
+
+	page = ALifeAirwaves,
+	translation = ALifeAirwaves_TacticalFreqKhz,
+}
+
+option ALifeAirwaves.Debug
+{
+	type = boolean,
+	default = false,
+
+	page = ALifeAirwaves,
+	translation = ALifeAirwaves_Debug,
+}

@@ -1,0 +1,6 @@
+tools/loadcheck/
+tools/livetest/runs/
+tools/livetest/current.json
+dist/
+__pycache__/
+*.pyc

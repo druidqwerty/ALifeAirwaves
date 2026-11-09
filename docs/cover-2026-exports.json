@@ -1,0 +1,81 @@
+{
+  "model": "openai/gpt-image-2",
+  "date": "2026-11-09",
+  "icon_crop": [
+    500,
+    530,
+    1100,
+    1130
+  ],
+  "files": [
+    {
+      "path": "C:\\Users\\druid\\.openclaw\\workspace\\pz-alife-airwaves\\repo\\docs\\cover-2026-master.png",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "bytes": 2894982,
+      "sha256": "eb8158f4a5e06420aa29ac09144b3eac156188ffbd7b2ed7bf47c4d0ea09a3e4"
+    },
+    {
+      "path": "C:\\Users\\druid\\.openclaw\\workspace\\pz-alife-airwaves\\repo\\docs\\cover-2026-prompt.md",
+      "pixels": null,
+      "bytes": 4207,
+      "sha256": "aa1d2b8de7b6a3503d74c71a7a6cf5bfdac254514635a245877646ea83ed8cb0"
+    },
+    {
+      "path": "C:\\Users\\druid\\.openclaw\\workspace\\pz-alife-airwaves\\repo\\docs\\preview.png",
+      "pixels": [
+        512,
+        512
+      ],
+      "bytes": 511999,
+      "sha256": "5c83792432ed20e07b764ce24c0dca2cf849f23911768b7524b2386cd780aa86"
+    },
+    {
+      "path": "C:\\Users\\druid\\.openclaw\\workspace\\pz-alife-airwaves\\repo\\42\\poster.png",
+      "pixels": [
+        512,
+        512
+      ],
+      "bytes": 511999,
+      "sha256": "5c83792432ed20e07b764ce24c0dca2cf849f23911768b7524b2386cd780aa86"
+    },
+    {
+      "path": "C:\\Users\\druid\\.openclaw\\workspace\\pz-alife-airwaves\\repo\\common\\poster.png",
+      "pixels": [
+        512,
+        512
+      ],
+      "bytes": 511999,
+      "sha256": "5c83792432ed20e07b764ce24c0dca2cf849f23911768b7524b2386cd780aa86"
+    },
+    {
+      "path": "C:\\Users\\druid\\.openclaw\\workspace\\pz-alife-airwaves\\repo\\42\\preview.png",
+      "pixels": [
+        512,
+        512
+      ],
+      "bytes": 511999,
+      "sha256": "5c83792432ed20e07b764ce24c0dca2cf849f23911768b7524b2386cd780aa86"
+    },
+    {
+      "path": "C:\\Users\\druid\\.openclaw\\workspace\\pz-alife-airwaves\\repo\\42\\icon.png",
+      "pixels": [
+        64,
+        64
+      ],
+      "bytes": 9837,
+      "sha256": "a61e24bbd3b393df02ec96bf000c613fe99ce7b169f5fbec7780296944f3d9fc"
+    },
+    {
+      "path": "C:\\Users\\druid\\.openclaw\\workspace\\pz-alife-airwaves\\repo\\common\\icon.png",
+      "pixels": [
+        64,
+        64
+      ],
+      "bytes": 9837,
+      "sha256": "a61e24bbd3b393df02ec96bf000c613fe99ce7b169f5fbec7780296944f3d9fc"
+    }
+  ]
+}

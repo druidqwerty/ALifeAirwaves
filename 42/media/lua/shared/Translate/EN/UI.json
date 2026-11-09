@@ -1,0 +1,17 @@
+{
+    "UI_ALA_Options_Info": "A-Life: Airwaves & Contracts. Personal display and control settings. Server-wide rules and frequencies are on the host's Sandbox page \"A-Life: Airwaves & Contracts\".",
+    "UI_ALA_Opt_OpenKey": "Open Airwaves & Contracts window",
+    "UI_ALA_Opt_OpenKey_tt": "Hotkey to open or close the Airwaves & Contracts window in-game (default: F9).",
+    "UI_ALA_Opt_HaloNotices": "Overhead radio notifications",
+    "UI_ALA_Opt_HaloNotices_tt": "Show intercepted radio broadcasts and SOS alerts over your character's head when a radio is active.",
+    "UI_ALA_Opt_ContextMenu": "Radio right-click menu",
+    "UI_ALA_Opt_ContextMenu_tt": "Show the [A-LIFE] Airwaves & Contracts option when right-clicking radios, vehicles, or SOS sites.",
+    "UI_ALA_Opt_WorldMap": "Beacons on world map & minimap",
+    "UI_ALA_Opt_WorldMap_tt": "Draw active SOS beacons, supply drop zones, and marked signals on the world map and minimap.",
+    "UI_ALA_Opt_FreqFilter": "Airwaves channel filter",
+    "UI_ALA_Opt_FreqFilter_tt": "Filter which channels appear in the Airwaves Log and overhead notifications.",
+    "UI_ALA_Opt_FreqFilter_1": "All channels (94.2 / 101.6 / 106.4 MHz)",
+    "UI_ALA_Opt_FreqFilter_2": "Emergency only (94.2 MHz)",
+    "UI_ALA_Opt_FreqFilter_3": "Trade & Convoys only (101.6 MHz)",
+    "UI_ALA_Opt_FreqFilter_4": "Tactical & Recon only (106.4 MHz)"
+}

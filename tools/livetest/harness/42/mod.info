@@ -1,0 +1,7 @@
+name=A-Life Airwaves isolated live test (never ship)
+id=ALALiveTest
+require=ZombieBuddy,ProjectALifeNPCs,ALifeCaravans,ALifeAirwaves
+versionMin=42.21
+modversion=1
+javaJarFile=media/java/ALALiveTest.jar
+javaPkgName=com.druid.alalive
