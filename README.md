@@ -1,10 +1,10 @@
 # A-Life: Airwaves & Contracts [B42]
 
-<p align="center"><a href="https://boosty.to/lrgpp"><img src="https://raw.githubusercontent.com/druidqwerty/ALifeAirwaves/main/docs/banner.png" alt="LrgPP mods on Boosty" width="640"></a></p>
+<p align="center"><a href="https://boosty.to/lrgpp"><img src="https://raw.githubusercontent.com/druidqwerty/ALifeAirwaves/d2357132d52c903c5dadddb80fb66f64a32aff35/docs/banner.png" alt="LrgPP mods on Boosty" width="640"></a></p>
 
 Radio airwaves, dynamic SOS rescue contracts, supply drops, and tactical town recon for [Project A-Life [ALIFE NPCS]](https://steamcommunity.com/sharedfiles/filedetails/?id=3803984183) by Vice. Connects living survivor squads, outposts, and (optionally) [A-Life: Caravans](https://steamcommunity.com/sharedfiles/filedetails/?id=3829571361) convoys to real in-game walkie-talkies, HAM stations, and vehicle radios across dedicated frequencies (`94.2 MHz`, `101.6 MHz`, `106.4 MHz`).
 
-[Source / releases (MIT)](https://github.com/druidqwerty/ALifeAirwaves) · [Русский](README_RU.md) · [Verification Report (0.1.0)](TEST_0.1.0.md)
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3836487758) · [Source / releases (MIT)](https://github.com/druidqwerty/ALifeAirwaves) · [Русский](README_RU.md) · [Verification Report (0.1.0)](TEST_0.1.0.md)
 
 Free and open source. The code is developed with AI; direction, testing and time are mine. [Support the mods on Boosty](https://boosty.to/lrgpp).
 

@@ -1,10 +1,10 @@
 # A-Life: Airwaves & Contracts [B42] (На русском)
 
-<p align="center"><a href="https://boosty.to/lrgpp"><img src="https://raw.githubusercontent.com/druidqwerty/ALifeAirwaves/main/docs/banner.png" alt="Моды LrgPP на Boosty" width="640"></a></p>
+<p align="center"><a href="https://boosty.to/lrgpp"><img src="https://raw.githubusercontent.com/druidqwerty/ALifeAirwaves/d2357132d52c903c5dadddb80fb66f64a32aff35/docs/banner.png" alt="Моды LrgPP на Boosty" width="640"></a></p>
 
 Живой радиоэфир выживших, динамические SOS-контракты, сброс припасов по рации и тактическая разведка городов для [Project A-Life [ALIFE NPCS]](https://steamcommunity.com/sharedfiles/filedetails/?id=3803984183) от Vice. Связывает отряды выживших, лагеря и (опционально) конвои [A-Life: Caravans](https://steamcommunity.com/sharedfiles/filedetails/?id=3829571361) с настоящими игровыми рациями, стационарными радиостанциями и автомобильными магнитолами на выделенных частотах (`94.2 МГц`, `101.6 МГц`, `106.4 МГц`).
 
-[Исходный код и релизы (MIT)](https://github.com/druidqwerty/ALifeAirwaves) · [English](README.md) · [Отчёт о проверке (0.1.0)](TEST_0.1.0.md)
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3836487758) · [Исходный код и релизы (MIT)](https://github.com/druidqwerty/ALifeAirwaves) · [English](README.md) · [Отчёт о проверке (0.1.0)](TEST_0.1.0.md)
 
 Бесплатный мод с открытым кодом. Код пишется с помощью ИИ; идея, направление, тестирование и время — мои. [Поддержать разработку на Boosty](https://boosty.to/lrgpp).
 
